@@ -1,13 +1,14 @@
-ThisBuild / versionScheme := Some("semver-spec")
-ThisBuild / organization  := "ru.tinkoff"
-ThisBuild / scmInfo       := Some(
+ThisBuild / versionScheme          := Some("semver-spec")
+ThisBuild / organization           := "ru.tinkoff"
+ThisBuild / sonatypeCredentialHost := "s01.oss.sonatype.org"
+ThisBuild / scmInfo                := Some(
   ScmInfo(
     url("https://github.com/Tinkoff/sbt-schema-registry-plugin"),
     "git@github.com:Tinkoff/sbt-schema-registry-plugin.git",
   ),
 )
 
-ThisBuild / developers    := List(
+ThisBuild / developers             := List(
   Developer(
     id = "red-bashmak",
     name = "Vyacheslav Kalyokin",
@@ -16,6 +17,6 @@ ThisBuild / developers    := List(
   ),
 )
 
-ThisBuild / description   := "Sbt plugin for download schemas from schema registry"
 ThisBuild / licenses += ("Apache-2.0", url("http://www.apache.org/licenses/LICENSE-2.0"))
-ThisBuild / homepage      := Some(url("https://github.com/Tinkoff/sbt-schema-registry-pluginn"))
+ThisBuild / description            := "Sbt plugin for download schemas from schema registry"
+ThisBuild / homepage               := Some(url("https://github.com/Tinkoff/sbt-schema-registry-pluginn"))
