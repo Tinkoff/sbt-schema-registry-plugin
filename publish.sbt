@@ -1,6 +1,5 @@
 ThisBuild / versionScheme          := Some("semver-spec")
 ThisBuild / organization           := "ru.tinkoff"
-ThisBuild / sonatypeCredentialHost := "s01.oss.sonatype.org"
 ThisBuild / scmInfo                := Some(
   ScmInfo(
     url("https://github.com/Tinkoff/sbt-schema-registry-plugin"),
