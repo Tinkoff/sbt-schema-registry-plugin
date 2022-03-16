@@ -5,6 +5,7 @@ lazy val sbtSchemaRegistryPlugin = (project in file("."))
   .settings(
     name                          := "sbt-schema-registry-plugin",
     scalaVersion                  := "2.12.15",
+    sbtPlugin                     := true,
     pluginCrossBuild / sbtVersion := "1.5.5",
     resolvers ++= Seq("Confluent" at "https://packages.confluent.io/maven/"),
     libraryDependencies ++= Seq(schemaRegistryClient),
