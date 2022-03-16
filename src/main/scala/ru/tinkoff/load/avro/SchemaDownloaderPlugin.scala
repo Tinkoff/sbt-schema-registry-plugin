@@ -25,7 +25,7 @@ object SchemaDownloaderPlugin extends AutoPlugin {
 
   override lazy val projectSettings: Seq[Setting[?]] = defaultSettings ++ Seq(
     logLevel / schemaRegistryDownload := (logLevel ?? Level.Info).value,
-    schemaRegistryDownload / Compile  := {
+    Compile / schemaRegistryDownload  := {
       val logger = streams.value.log
       logger.debug(s"schemaRegistryUrl: ${schemaRegistryUrl.value}")
       logger.debug(s"schemaRegistryTargetFolder: ${schemaRegistryTargetFolder.value}")
