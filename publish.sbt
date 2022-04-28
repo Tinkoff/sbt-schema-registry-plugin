@@ -18,4 +18,4 @@ ThisBuild / developers    := List(
 
 ThisBuild / licenses += ("Apache-2.0", url("http://www.apache.org/licenses/LICENSE-2.0"))
 ThisBuild / description   := "Sbt plugin for download schemas from schema registry"
-ThisBuild / homepage      := Some(url("https://github.com/Tinkoff/sbt-schema-registry-pluginn"))
+ThisBuild / homepage      := Some(url("https://github.com/Tinkoff/sbt-schema-registry-plugin"))
