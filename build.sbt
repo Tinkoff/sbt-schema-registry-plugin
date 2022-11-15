@@ -4,7 +4,7 @@ lazy val sbtSchemaRegistryPlugin = (project in file("."))
   .enablePlugins(SbtPlugin, GitVersioning)
   .settings(
     name                          := "sbt-schema-registry-plugin",
-    scalaVersion                  := "2.12.16",
+    scalaVersion                  := "2.12.17",
     sbtPlugin                     := true,
     pluginCrossBuild / sbtVersion := "1.7.1",
     resolvers ++= Seq("Confluent" at "https://packages.confluent.io/maven/"),
