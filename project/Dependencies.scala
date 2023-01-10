@@ -2,8 +2,8 @@ import sbt._
 
 object Dependencies {
   private object Versions {
-    val avro         = "1.11.0"
-    val schReqClient = "7.2.3"
+    val avro         = "1.11.1"
+    val schReqClient = "7.3.1"
   }
 
   lazy val avroCompiler: ModuleID = "org.apache.avro" % "avro-compiler" % Versions.avro
