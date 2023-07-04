@@ -7,7 +7,7 @@ ThisBuild / scmInfo       := Some(
   ),
 )
 
-ThisBuild / developers    := List(
+ThisBuild / developers := List(
   Developer(
     id = "red-bashmak",
     name = "Vyacheslav Kalyokin",
@@ -17,5 +17,5 @@ ThisBuild / developers    := List(
 )
 
 ThisBuild / licenses += ("Apache-2.0", url("http://www.apache.org/licenses/LICENSE-2.0"))
-ThisBuild / description   := "Sbt plugin for download schemas from schema registry"
-ThisBuild / homepage      := Some(url("https://github.com/Tinkoff/sbt-schema-registry-plugin"))
+ThisBuild / description := "Sbt plugin for download schemas from schema registry"
+ThisBuild / homepage    := Some(url("https://github.com/Tinkoff/sbt-schema-registry-plugin"))
